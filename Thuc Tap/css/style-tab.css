@@ -1,0 +1,214 @@
+/* tab */
+
+@media (max-width: 1160px) {
+    .header {
+        display: flex;
+        height: 60px;
+        justify-content: space-between
+    }
+    .logo {
+        margin-left: 3%;
+    }
+    #nav {
+        margin-right: 19px;
+        position: relative;
+    }
+    #nav>ul {
+        display: none;
+        /* can bo cmt */
+        flex-direction: column;
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        width: max-content;
+        height: max-content;
+        background-color: rgb(31, 31, 31);
+        border-radius: 2.5px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    /* #nav>ul>li {
+        display: block;
+    } */
+    #nav .subnav>ul {
+        position: absolute;
+        right: 136px;
+        top: 25px;
+    }
+    /* .subnav>ul>li>a{
+        display: none;
+    } */
+    .ti-angle-down {
+        color: rgb(190, 190, 190);
+        padding-right: 10px;
+    }
+    #nav>ul>li>p {
+        text-decoration: none;
+        color: rgb(190, 190, 190);
+        margin: 10px 0px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    #bt {
+        background-color: rgb(252, 67, 73);
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        margin-left: 5px;
+    }
+    .search_searchbox {
+        flex-direction: column;
+    }
+    .search_searchbox {
+        width: 96%;
+        padding: 10px;
+    }
+    .find-job .search_searchbox .br-white {
+        width: 99%;
+        margin-top: 9px;
+        display: flex;
+    }
+    .search_searchbox .br-white input {
+        width: 97%;
+    }
+    .search_content {
+        margin-top: 150px;
+        color: white;
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    .search_text {
+        margin-top: 10px;
+    }
+    .button-job {
+        margin-top: 10px;
+        width: 99%;
+        padding: 12px;
+        text-align: center;
+    }
+    .ti-target {
+        margin-right: 0px;
+    }
+    #job-categories .member {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .subnav ul {
+        padding: 15px 20px 15px 8px;
+    }
+    .ab-mem {
+        width: 96%;
+        margin-top: 10px;
+        min-height: 135px
+    }
+    #job-categories {
+        margin-top: 100px;
+    }
+    .job-body {
+        width: 96%;
+    }
+    .job-body .real-job {
+        width: 49%;
+        margin-top: 25px;
+    }
+    .body-offer .offer4 {
+        display: none;
+    }
+    .ti-star {
+        margin-left: -24vw;
+    }
+    .work-hard {
+        width: 96%;
+        margin-top: 100px;
+    }
+    iframe {
+        width: 47vw;
+        height: 263px;
+    }
+    .news {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .news .body-news {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+    .br-rn {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .news .real-new {
+        margin-top: 25px;
+        width: 96%;
+    }
+    .real-new .text-new {
+        flex: 1;
+    }
+    .stati .static-child {
+        width: 100%;
+    }
+    .stati .static-child .number {
+        flex-wrap: wrap;
+    }
+    .static-child .number .number-2,
+    .static-child .number .number-3 {
+        padding-right: 4vw;
+    }
+    .static-child .number .number-2 {
+        padding-left: 4vw;
+    }
+    .number-child {
+        flex: 50%;
+        margin-top: 20px;
+    }
+    .body-offer {
+        display: flex;
+        /* min-height: 205px; */
+        width: 96%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .body-offer .offer {
+        width: 32%;
+    }
+    .job-offer .ti-angle-left,
+    .job-offer .ti-angle-right {
+        display: none;
+    }
+    .stati .static-child .number {
+        margin-top: 20px;
+    }
+    .job-offer h1 {
+        width: 96%;
+        text-align: left;
+    }
+    .work-with {
+        display: flex;
+        width: 96%;
+        margin: auto;
+        height: max-content;
+        margin-bottom: 20px;
+    }
+    .work-with .com-work-with img {
+        margin: 15px 40px;
+    }
+    .body-footer {
+        justify-content: center;
+    }
+    .body-footer a {
+        padding-left: 10px;
+    }
+    .main-footer .head-footer .left-footer,
+    .main-footer .head-footer .center-footer,
+    .main-footer .head-footer .right-footer {
+        width: 40%;
+        margin: 30px;
+    }
+}

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobstreet</title>
+    <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-tab.css">
+    <link rel="stylesheet" href="./css/style-pc.css">
+    <link rel="stylesheet" href="./css/style-mobi.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/Logo.png" alt="" class="logo">
+        <div id="nav">
+            <ul>
+                <li>
+                    <p onclick="showMenu1()">Browse Jobs</p>
+                    <i class="ti-angle-down"></i>
+                    <div class="subnav">
+                        <ul class="subnav1">
+                            <li><a href="">Jobs Listing</a></li>
+                            <li><a href="">Job Page</a></li>
+                            <li><a href="">Jobs By Cities</a></li>
+                            <li><a href="">Job By Types</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p onclick="showMenu2()">Employers</p>
+                    <i class="ti-angle-down"></i>
+                    <div class="subnav">
+                        <ul class="subnav2">
+                            <li><a href="">Employers Listing</a></li>
+                            <li><a href="">Employer Page</a></li>
+                            <li><a href="">Employers By Cities</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p onclick="showMenu3()">Candidates</p>
+                    <i class="ti-angle-down"></i>
+                    <div class="subnav">
+                        <ul class="subnav3">
+                            <li><a href="">Candidates Listing</a></li>
+                            <li><a href="">Candidate Page</a></li>
+                            <li><a href="">Candidates By Cities</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p onclick="showMenu4()">Products</p>
+                    <i class="ti-angle-down"></i>
+                    <div class="subnav">
+                        <ul class="subnav4">
+                            <li><a href="">Products Listing</a></li>
+                            <li><a href="">Product Page</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p onclick="showMenu5()">News</p>
+                    <i class="ti-angle-down"></i>
+                    <div class="subnav">
+                        <ul class="subnav5">
+                            <li><a href="">Hot News</a></li>
+                            <li><a href="">Newst</a></li>
+                            <li><a href="">News Listing</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p onclick="showMenu6()">Pages</p>
+                    <i class="ti-angle-down"></i>
+                    <div class="subnav">
+                        <ul class="subnav6">
+                            <li><a href="">Pages Listing</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <a href="" class="sign-in">Sign In</a>
+            <button id="bt" onclick="showMenu()">☰</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="find-job">
+            <div class="search_content">
+                <h1>AWESOME JOBS FOR EVERYONE !</h1>
+            </div>
+            <div class="search_text">A minimal yet colorful wordpress theme for job posting and recruit.</div>
+            <div class="search_searchbox">
+                <div class="br-white"><i class="ti-search"></i>
+                    <input type="text" placeholder="Search Keywords">
+                </div>
+                <div class="br-white">
+                    <select>
+                        <option value="volvo">All specialisms</option>
+                        <option value="saab">Option2</option>
+                        <option value="opel">Option3</option>
+                    </select>
+                </div>
+                <div class="br-white"><input type="text" placeholder="All Locations">
+                    <i class="ti-target"></i>
+                </div>
+                <a href="" class="button-job">Find Job</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="job-categories">
+        <div class="member">
+            <div class="ab-mem job-career">
+                <h1>Job career</h1>
+                <p>Far much that one rank beheld bluebird after outside ignobly allegedly more when.</p>
+                <a href="">View all</a>
+            </div>
+            <div class="ab-mem membership">
+                <h1>Membership</h1>
+                <p>Far much that one rank beheld bluebird after outside ignobly allegedly more when.</p>
+                <a href="">View all</a>
+            </div>
+            <div class="ab-mem vacancy">
+                <h1>Post A Vacancy</h1>
+                <p>Far much that one rank beheld bluebird after outside ignobly allegedly more when.</p>
+                <a href="">View all</a>
+            </div>
+        </div>
+        <div class="job-header">
+            <h1>Job Categories</h1>
+            <img class="line" src="./img/line.png" alt="">
+            <p>See who's hiring in your area. Find a job close to home</p>
+        </div>
+        <div class="job-body">
+            <div class="real-job">
+                <img src="./img/menu-ele-1.png" alt="">
+                <div>
+                    <h2>Accountancy</h2>
+                    <a href="">2 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-2.png" alt="">
+                <div>
+                    <h2>Banking</h2>
+                    <a href="">2 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-3.png" alt="">
+                <div>
+                    <h2>Charity & Voluntary</h2>
+                    <a href="">3 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-4.png" alt="">
+                <div>
+                    <h2>Digital & Creative</h2>
+                    <a href="">2 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-5.png" alt="">
+                <div>
+                    <h2>Estate Agency</h2>
+                    <a href="">2 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-6.png" alt="">
+                <div>
+                    <h2>Graduate</h2>
+                    <a href="">2 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-7.png" alt="">
+                <div>
+                    <h2>IT Contractor</h2>
+                    <a href="">7 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-8.png" alt="">
+                <div>
+                    <h2>Legal jobs</h2>
+                    <a href="">4 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-9.png" alt="">
+                <div>
+                    <h2>Leisure & Tourism</h2>
+                    <a href="">4 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-10.png" alt="">
+                <div>
+                    <h2>Marketing & PR</h2>
+                    <a href="">4 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-11.png" alt="">
+                <div>
+                    <h2>Media</h2>
+                    <a href="">4 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="real-job">
+                <img src="./img/menu-ele-12.png" alt="">
+                <div>
+                    <h2>Public Sector</h2>
+                    <a href="">4 jobs <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="job-footer">
+            <a href="" class="all-job"><i class="ti-angle-double-right"></i> View all jobs</a>
+
+        </div>
+    </div>
+    <div class="big-job-offer">
+        <div class="job-offer">
+            <h2>Fearture Job Offer</h2>
+            <div class="div-line">
+                <img class="line" src="./img/line-white.png" alt="">
+            </div>
+            <div class="body-offer">
+                <i class="ti-angle-left"></i>
+                <div class="offer offer1">
+                    <i class="ti-star bd-red"></i>
+                    <img src="./img/logo-1.png" alt="">
+                    <p>Graduate Inside Sales Executive Job</p>
+                    <div class="years">
+                        <p>1 year ago </p><i class="ti-heart bd-red-2"></i>
+                    </div>
+                </div>
+                <div class="offer offer2">
+                    <i class="ti-star bd-red"></i>
+                    <img src="./img/logo-2.png" alt="">
+                    <p>Senior Rolling Stock Technician Required</p>
+                    <div class="years">
+                        <p>1 year ago </p><i class="ti-heart bd-red-2"></i>
+                    </div>
+                </div>
+                <div class="offer offer3">
+                    <i class="ti-star bd-red"></i>
+                    <img src="./img/logo-1.png" alt="">
+                    <p>Operational Manager Part Time Job</p>
+                    <div class="years">
+                        <p>1 year ago </p><i class="ti-heart bd-red-2"></i>
+                    </div>
+                </div>
+                <div class="offer offer4">
+                    <i class="ti-star bd-red"></i>
+                    <img src="./img/logo-3.png" alt="">
+                    <p>Computer Operator and Information Tech</p>
+                    <div class="years">
+                        <p>1 year ago </p><i class="ti-heart bd-red-2"></i>
+                    </div>
+                </div>
+                <i class="ti-angle-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="work-hard">
+        <div class="left-wh">
+            <h2>We Work Hard</h2>
+            <img class="line" src="./img/line.png" alt="">
+            <p>Based on the analysis of the results and User Cases, I had a brainstorming session to figure out which new functions, which renewed old functions, and which visual approach, could satisfy users needs.</p>
+            <p>After the brainstorming session, the most important points were selected and sorted by two categories: Functional and Visual.</p>
+            <div class="control-play">
+                <i class="ti-control-play"></i>
+                <a href=""> </i> Watch Video</a>
+            </div>
+        </div>
+        <div class="right-wh">
+            <iframe src="https://www.youtube.com/embed/on3mxgg4J6w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="head-news">
+            <h2>Lastest New</h2>
+            <img class="line" src="./img/line.png" alt="">
+            <p>See who's hiring in your area. Find a job close to home.</p>
+        </div>
+        <div class="body-news">
+            <div class="br-rn">
+                <div class="real-new">
+                    <img src="./img/new-1.png" alt="">
+                    <div class="text-new">
+                        <h3><i class="ti-user"></i>
+                            <p>Admin</p> <i class="ti-comment"><p>1</p></i></h3>
+                        <a href="">Need Candidates for This Position</a>
+                        <p>Ravenously while stridently coughed far promiscuously below jeez much yikes bland that salamander cunningly..
+                        </p>
+                        <div class="icon-new">
+                            <div class="mxh">
+                                <i class="ti-facebook"></i><i class="ti-twitter-alt"></i><i class="ti-google"></i><i class="ti-plus"></i>
+                            </div>
+                            <div class="date">
+                                <i class="ti-calendar"></i>
+                                <p>November 23, 2013</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="br-rn">
+                <div class="real-new">
+                    <img src="./img/new-2.png" alt="">
+                    <div class="text-new">
+                        <h3><i class="ti-user"></i>
+                            <p>Admin</p> <i class="ti-comment"><p>1</p></i></h3>
+                        <a href="">Looking for Motivated Producer</a>
+                        <p>Ravenously while stridently coughed far promiscuously below jeez much yikes bland that salamander cunningly..
+                        </p>
+                        <div class="icon-new">
+                            <div class="mxh">
+                                <i class="ti-facebook"></i><i class="ti-twitter-alt"></i><i class="ti-google"></i><i class="ti-plus"></i>
+                            </div>
+                            <div class="date">
+                                <i class="ti-calendar"></i>
+                                <p>November 23, 2013</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="br-rn">
+                <div class="real-new">
+                    <img src="./img/new-3.png" alt="">
+                    <div class="text-new">
+                        <h3><i class="ti-user"></i>
+                            <p>Admin</p> <i class="ti-comment"><p>1</p></i></h3>
+                        <a href="">Opportunities at Jobs line</a>
+                        <p>Ravenously while stridently coughed far promiscuously below jeez much yikes bland that salamander cunningly..
+                        </p>
+                        <div class="icon-new">
+                            <div class="mxh">
+                                <i class="ti-facebook"></i><i class="ti-twitter-alt"></i><i class="ti-google"></i><i class="ti-plus"></i>
+                            </div>
+                            <div class="date">
+                                <i class="ti-calendar"></i>
+                                <p>November 23, 2013</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="br-rn">
+                <div class="real-new">
+                    <img src="./img/new-3.png" alt="">
+                    <div class="text-new">
+                        <h3><i class="ti-user"></i>
+                            <p>Admin</p> <i class="ti-comment"><p>1</p></i></h3>
+                        <a href="">Employment in New York</a>
+                        <p>Ravenously while stridently coughed far promiscuously below jeez much yikes bland that salamander cunningly..
+                        </p>
+                        <div class="icon-new">
+                            <div class="mxh">
+                                <i class="ti-facebook"></i><i class="ti-twitter-alt"></i><i class="ti-google"></i><i class="ti-plus"></i>
+                            </div>
+                            <div class="date"><i class="ti-calendar"></i>
+                                <p>November 23, 2013</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stati">
+        <div class="static-child">
+            <h1>Comprehensive Employment Statistics</h1>
+
+            <img class="line" src="./img/line-white.png" alt="">
+
+            <div class="number">
+                <div class="number-child">
+                    <h3>53841</h3>
+                    <p>Awesome Company</p>
+                </div>
+
+                <div class="number-child number-2">
+                    <h3>36003</h3>
+                    <p>Posted Job List</p>
+                </div>
+                <div class="number-child number-3">
+                    <h3>203285</h3>
+                    <p>Register Candidate</p>
+                </div>
+                <div class="number-child number4">
+                    <h3>53942</h3>
+                    <p>Registered Employer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work-with">
+        <h1>We Love To Work With Us</h1>
+        <img class="line" src="./img/line.png" alt="">
+        <div class="com-work-with">
+            <img src="./img/company-1.png" alt="">
+            <img src="./img/company-2.png" alt="">
+            <img src="./img/company-3.png" alt="">
+            <img src="./img/company-4.png" alt="">
+            <img src="./img/company-5.png" alt="">
+            <img src="./img/company-6.png" alt="">
+            <img src="./img/company-7.png" alt="">
+            <img src="./img/company-8.png" alt="">
+            <img src="./img/company-9.png" alt="">
+            <img src="./img/company-10.png" alt="">
+            <img src="./img/company-11.png" alt="">
+            <img src="./img/company-12.png" alt="">
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="main-footer">
+            <div class="head-footer">
+                <div class="left-footer">
+                    <img src="./img/my-logo-dark.png" alt="">
+                    <p>DieSachbearbeiter Schönhauser Allee 167c 10435</p>
+                    <p>Berlin Newland, German+49 30 47373795</p>
+                    <p>info@chimpgroup.com</p>
+                    <div class="mxh-footer">
+                        <i class="ti-facebook"></i>
+                        <i class="ti-twitter-alt"></i>
+                        <i class="ti-linkedin"></i>
+                        <i class="ti-instagram"></i>
+                        <i class="ti-youtube"></i>
+                    </div>
+                </div>
+                <div class="center-footer">
+                    <h2>Frequently Asked Questions</h2>
+                    <div><i class="ti-angle-right"></i>
+                        <p>Consectetur adipiscing elit? </p>
+                    </div>
+                    <div><i class="ti-angle-right"></i>
+                        <p>Integer cursusturpis ut sem laoreet?</p>
+                    </div>
+                    <div><i class="ti-angle-right"></i>
+                        <p>Dolor sit amet consectetur?</p>
+                    </div>
+                    <div><i class="ti-angle-right"></i>
+                        <p>Consectetur adipiscing elit?</p>
+                    </div>
+                    <div><i class="ti-angle-right"></i>
+                        <p>Integer cursus turpis ut sem laoreet?</p>
+                    </div>
+                    <div><i class="ti-angle-right"></i>
+                        <p>Dolor sit amet consectetur?</p>
+                    </div>
+                </div>
+                <div class="right-footer">
+                    <h2>NEWSLETTER</h2>
+                    <p>We may send you information about related events, webinars, products and services which we information about related believe.</p>
+                    <div class="input-mail">
+                        <input type="text" placeholder="Enter your email address">
+                        <i class="ti-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="body-footer">
+                <a href="">Consectetur adipiscing elit?</a>
+                <a href="">- Integer cursus turpis ut sem laoreet?</a>
+                <a href="">- Dolor sit amet consectetur?</a>
+                <a href="">- Consectetur adipiscing elit?</a>
+                <a href="">- Integer cursus turpis ut sem laoreet?</a>
+                <a href="">- Dolor sit amet consectetur?</a>
+            </div>
+            <div class="foot-footer">
+                <a href="#top"><i class="ti-angle-up"></i></a>
+                <div class="main-foot-footer">
+                    <p>© 2017 JobCareer All rights reserved. Design by <a href="">Chimp Group</a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>

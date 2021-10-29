@@ -1,0 +1,61 @@
+@media (max-width:500px) {
+    .container {
+        height: 760px;
+    }
+    .ab-mem {
+        min-height: 160px;
+    }
+    .job-body .real-job {
+        width: 100%;
+    }
+    .body-offer .offer2,
+    .body-offer .offer3 {
+        display: none;
+    }
+    .body-offer {
+        justify-content: space-around;
+    }
+    .body-offer .offer {
+        width: 96%;
+    }
+    .ti-star {
+        margin-left: -75vw;
+    }
+    .work-hard {
+        align-items: center;
+        flex-direction: column;
+    }
+    .work-hard .left-wh {
+        width: 96%;
+        margin-bottom: 40px;
+    }
+    iframe {
+        width: 95vw;
+        height: 263px;
+    }
+    .work-with .com-work-with img {
+        margin: 16px 6px;
+    }
+    .stati .static-child .number {
+        flex-wrap: wrap;
+    }
+    .main-footer .head-footer .left-footer,
+    .main-footer .head-footer .center-footer,
+    .main-footer .head-footer .right-footer {
+        width: 100%;
+    }
+    .static-child .number .number-child {
+        padding: 10px;
+    }
+    .static-child .number .number-2 {
+        border-left: none;
+    }
+    .static-child .number .number-2,
+    .static-child .number .number-3 {
+        border-right: none
+    }
+    .news .real-new {
+        flex-direction: column;
+        height: fit-content;
+    }
+}

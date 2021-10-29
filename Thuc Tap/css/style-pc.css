@@ -1,0 +1,146 @@
+@media (min-width: 1161px) {
+    .header {
+        display: flex;
+        align-content: stretch;
+        justify-content: space-evenly;
+        height: 93px;
+    }
+    .search_searchbox {
+        padding: 30px 0px;
+    }
+    #nav {
+        align-items: center;
+    }
+    .subnav ul {
+        padding: 15px 47px 15px 8px;
+    }
+    #bt {
+        display: none;
+    }
+    .search_content {
+        margin-top: 260px;
+    }
+    .search_text {
+        margin-top: 30px;
+    }
+    #nav>ul>li>p {
+        padding-left: 20px;
+        font-size: 14px;
+        padding: 30px 0px 30px 15px;
+    }
+    #nav li:hover ul {
+        display: block;
+    }
+    .ti-target,
+    .ti-search {
+        padding: 0px 10px;
+    }
+    .search_searchbox .br-white input {
+        border: none;
+        /* padding: 13px;
+    padding-right: 70px; */
+        padding: 0px 45.5px 0px 0px;
+    }
+    .job-offer .div-line {
+        width: 1160px;
+        display: flex;
+    }
+    #job-categories .member {
+        width: 1152px;
+    }
+    #job-categories {
+        margin-top: 150px;
+    }
+    .button-job {
+        padding: 12px 30px;
+    }
+    .membership {
+        margin-right: 50px;
+    }
+    .job-career {
+        margin-right: 50px;
+    }
+    .job-body {
+        width: 1160px;
+    }
+    .job-body .real-job {
+        width: 22%;
+        margin-top: 45px;
+    }
+    .work-hard {
+        width: 1160px;
+        margin-top: 100px;
+    }
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+    .news {
+        width: 1160px;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .news .body-news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .news .real-new {
+        width: 560px;
+    }
+    .news .real-new {
+        margin-top: 40px;
+    }
+    .stati .static-child {
+        width: 1160px;
+    }
+    .static-child .number .number-2,
+    .static-child .number .number-3 {
+        padding-right: 90px;
+    }
+    .static-child .number .number-2 {
+        padding-left: 90px;
+    }
+    .stati .static-child .number {
+        margin-top: 50px;
+    }
+    .body-offer {
+        display: flex;
+        min-height: 205px;
+        width: 1250px;
+        justify-content: space-between;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .job-offer h1 {
+        color: white;
+        margin-top: 60px;
+        margin-left: -880px;
+    }
+    .job-offer h2 {
+        width: 1160px;
+    }
+    .job-offer>i {
+        width: 1160px;
+    }
+    .work-with {
+        display: flex;
+        width: 1160px;
+        margin: auto;
+        height: 470px;
+    }
+    .work-with .com-work-with img {
+        width: 13%;
+        margin: 20px;
+    }
+    .body-footer {
+        justify-content: space-around;
+    }
+    .main-footer .head-footer .left-footer,
+    .main-footer .head-footer .center-footer,
+    .main-footer .head-footer .right-footer {
+        flex: 1;
+    }
+}
